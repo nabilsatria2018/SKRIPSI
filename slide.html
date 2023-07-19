@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout people</title>
+
+    <style>
+
+        body{
+            margin: auto;
+            box-sizing: border-box;
+        }
+
+        .container{
+            background-image: url(./baground/1684458751799.jpg);
+            background-size: cover;
+            height: 445pt;
+            padding: 5px;
+            width:90%;
+            margin: auto;
+        }
+
+        .container .header{
+            background-color: yellow;
+            padding: 3px;
+            text-align: center;
+            opacity: 0.4;
+            margin:auto ;
+        }
+
+        .container .navigation{
+            background-color: coral;
+            padding: 5px;
+            padding-top: 1px;
+            padding-left: 0px;
+            opacity: 0.4;
+           margin: auto;
+        }
+
+        .navigation ul{
+            padding: 15px;
+            list-style-type: none;
+            margin-top: 10px;
+            margin: auto;
+            padding-bottom: 12px;
+        }
+
+        .navigation ul li{
+            padding: 6px;
+            display: inline-block;
+            text-transform: uppercase;
+            background-color: black;
+            border-radius: 5px;
+            margin: auto;
+        }
+
+        .navigation ul li a{
+            padding: 0px;
+            text-decoration: none;
+            color: white;
+        }
+
+        .navigation ul li a:hover{
+            color: antiquewhite;
+        }
+
+        .center .sidebar{
+            background-color: darkgray;
+            padding: 5px;
+            height: 280pt;
+            width: 15%;
+            opacity: 0.4;
+            float: left;
+        }
+
+        .center .main{
+            background-color: cornflowerblue;
+            padding: 5px;
+            height: 280pt;
+            overflow: scroll;
+            width: auto;
+            opacity: 0.4;
+            display: block;
+        }
+
+        .center .footer{
+            background-color: blueviolet;
+            padding: 5px;
+        }
+
+    </style>
+
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h1>Web Layout</h1>
+        </div>
+        
+        <div class="navigation">
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">profile</a></li>
+                <li><a href="#">gallery</a></li>
+                <li><a href="#">about</a></li>
+            </ul>
+        </div>
+
+        <div class="center">
+            <div class="sidebar">
+                ini bagian sidebar
+            </div>
+
+            <div class="main">
+                ini bagian konten. aku tau ini semua tak adil. mau bilang apa akupun tak sanggup. ait mataku tak lagi mau menetes. alasannya sering kali kau ucap. sandiwara apa yang telah kau lakukan kepadaku. jujurlah sayang, aku tak mengapa. jika nanti aku yg harus pergi kuterima walau sakit hati. mungkin ini jalan yang engkau mau. kau dengannya seaakan ku tak tahu. sandiwara apa cerita apa aku tauuu. jujurlah sayang aku tak mengapa, biar semua jelas tak berbeda jika nanti aku yang harus pergi ku terima walau sakit hati
+            </div>
+
+            <div class="footer">
+                ini bagian bawah
+            </div>
+        </div>
+
+    </div>
+    
+</body>
+</html>
