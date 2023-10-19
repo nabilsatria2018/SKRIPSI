@@ -1,2 +1,2 @@
-# SKRIPSI
-ini adalah github ku yang akan ku kerjakan
+# seseorang yang berusaha
+kamu boleh berbicara, tapi jangan menggunakan ego
